@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_idea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<title>
+    نموذج ارسال أفكار مشاريع الفريق
+</title>
+<body>
+    <div class="contain">
+        <h2>نموذج ارسال فكرة مشروع للفريق</h2>
+    </div>
+    <form action="https://formsubmit.co/saleh26054096@gmail.com"method="post">
+        <div class="form-group">
+            <label for="name">الاسم</label>
+            <input type="text" name="الاسم" id="name"required placeholder="name">
+        </div>
+        <div class="form-group">
+            <label for="id">الرقم التعريفي (ID):</label>
+            <input type="text" name="الرقم التغريفي" id="id"required placeholder="ID">
+        </div>
+        <div class="form-group">
+            <label for="whatsapp">رقم الواتساب:</label>
+            <input type="tel" name="رقم الواتساب"pattern="[0-9]+"title="الرجاء ادخال ارقام فقط" id="whatsapp"required placeholder="whatsapp number">
+        </div>
+        <div class="form-group">
+            <label for="project_idea">فكرة المشروع</label>
+            <textarea name="فكرة المشروع" id="project_idea"placeholder="يرجي كتابتة فكرة المشروع وتفاصيلها هنا..."rows="10"required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="file">ضيف اي ملف او صورة لفكرتك</label>
+            <input type="file" name="my file" id="file"placeholder="add file"required>
+        </div>
+        <button type="submit">ارسال الفكرة</button>
+
+    </form>
+    <div class="footer">
+        from Eng\Saleh mhrous
+    </div>
+</body>
+</html>
